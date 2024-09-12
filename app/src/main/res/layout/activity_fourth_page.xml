@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="@drawable/fourth"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".MainActivity">
+
+
+<ImageView
+    android:id="@+id/imageView6"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:layout_marginTop="56dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.454"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/courseRv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="#000000"
+    android:textSize="26sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0" />
+
+<TextView
+    android:id="@+id/textView9"
+    android:layout_width="326dp"
+    android:layout_height="142dp"
+    android:layout_margin="-190dp"
+    android:inputType="textMultiLine"
+    android:textAlignment="center"
+    android:textColor="#828282"
+    android:text="Learn new skills every day!"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.494"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.774" />
+
+<Button
+    android:id="@+id/btn_admin"
+    android:layout_width="90dp"
+    android:layout_height="37dp"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="684dp"
+    android:text="ADMIN"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.981"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<Button
+    android:id="@+id/btn_tutor"
+    android:layout_width="136dp"
+    android:layout_height="31dp"
+    android:layout_gravity="bottom"
+    android:backgroundTint="@color/background6"
+    android:text="TEACHER"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.957" />
+
+<Button
+    android:id="@+id/btn_user"
+    android:layout_width="184dp"
+    android:layout_height="61dp"
+    android:layout_gravity="bottom"
+    android:backgroundTint="@color/darker_grey"
+    android:shadowColor="#151111"
+    android:text="STUDENTS"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.928"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/imageView6"
+    app:layout_constraintVertical_bias="0.976"
+    app:strokeColor="#956363" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

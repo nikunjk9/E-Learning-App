@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="@drawable/fifth"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".MainActivity">
+
+
+<ImageView
+    android:id="@+id/imageView6"
+    android:layout_width="52dp"
+    android:layout_height="43dp"
+    android:layout_marginTop="448dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.275"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<ImageView
+    android:id="@+id/imageView7"
+    android:layout_width="52dp"
+    android:layout_height="43dp"
+    android:layout_marginTop="512dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.239"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/tv_forgotPassword"
+    android:layout_width="389dp"
+    android:layout_height="56dp"
+    android:text=""
+    android:textColor="#000000"
+    android:textSize="26sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.318"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.185" />
+
+<TextView
+    android:id="@+id/tv_registerButton"
+    android:layout_width="389dp"
+    android:layout_height="56dp"
+    android:text=""
+    android:textColor="#000000"
+    android:textSize="26sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.272"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.284" />
+
+<TextView
+    android:id="@+id/et_password"
+    android:layout_width="256dp"
+    android:layout_height="55dp"
+    android:layout_margin="-190dp"
+    android:inputType="textMultiLine"
+    android:text="Already have an account? Sign up"
+    android:textAlignment="center"
+    android:textColor="#828282"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.496"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.995" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="158dp"
+    android:layout_height="38dp"
+    android:layout_margin="-190dp"
+    android:inputType="textMultiLine"
+    android:text="forget password?"
+    android:textAlignment="center"
+    android:textColor="#828282"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.366" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="399dp"
+    android:layout_height="28dp"
+    android:layout_margin="-190dp"
+    android:inputType="textMultiLine"
+    android:text="----------OR Sign in with--------"
+    android:textAlignment="center"
+    android:textColor="#828282"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.559" />
+
+<TextView
+    android:id="@+id/btn_login"
+    android:layout_width="227dp"
+    android:layout_height="72dp"
+    android:layout_margin="-190dp"
+    android:inputType="textMultiLine"
+    android:text="Login"
+    android:textAlignment="center"
+    android:textColor="#828282"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.469"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.07" />
+<Button
+    android:id="@+id/btn_admin"
+    android:layout_width="380dp"
+    android:layout_height="65dp"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="228dp"
+    android:text="ADMIN"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.516"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<Button
+    android:id="@+id/btn_g"
+    android:layout_width="380dp"
+    android:layout_height="65dp"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="160dp"
+    android:text="ADMIN"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.516"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<Button
+    android:id="@+id/btn_tutor"
+    android:layout_width="380dp"
+    android:layout_height="65dp"
+    android:layout_gravity="bottom"
+    android:backgroundTint="@color/background6"
+    android:text="TEACHER"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.549"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.46" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

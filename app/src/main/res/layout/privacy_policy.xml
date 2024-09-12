@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="@drawable/info"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="377dp"
+        android:layout_height="157dp"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <TextView
+        android:id="@+id/iv_play"
+        android:layout_width="223dp"
+        android:layout_height="28dp"
+        android:layout_margin="-190dp"
+        android:inputType="textMultiLine"
+        android:text="UI/UX Design master class       office management master class"
+        android:textAlignment="center"
+        android:textColor="#828282"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <TextView
+        android:id="@+id/et_confirmPassword"
+        android:layout_width="375dp"
+        android:layout_height="167dp"
+        android:layout_margin="-190dp"
+        android:inputType="textMultiLine"
+        android:text="Leslie Alexander"
+        android:textAlignment="center"
+        android:textColor="#828282"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="32dp"
+        android:layout_margin="-190dp"
+        android:inputType="textMultiLine"
+        android:text="UI/UX Design master class       office management master class"
+        android:textAlignment="center"
+        android:textColor="#828282"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="225dp"
+        android:layout_height="31dp"
+        android:layout_margin="-190dp"
+        android:inputType="textMultiLine"
+        android:text="UI/UX Design master class       office management master class"
+        android:textAlignment="center"
+        android:textColor="#828282"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <TextView
+        android:id="@+id/iv_delete"
+        android:layout_width="387dp"
+        android:layout_height="73dp"
+        android:layout_margin="-190dp"
+        android:inputType="textMultiLine"
+        android:text="UI/UX Design master class       office management master class"
+        android:textAlignment="center"
+        android:textColor="#828282"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+    android:id="@+id/btn_register"
+    android:layout_width="215dp"
+    android:layout_height="36dp"
+    android:layout_margin="-19dp"
+    android:inputType="textMultiLine"
+    android:text="Login"
+    android:textAlignment="center"
+    android:textColor="#828282"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.341"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.017" />
+
+    <Button
+    android:id="@+id/iv_android"
+    android:layout_width="41dp"
+    android:layout_height="36dp"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="680dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.024"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<Button
+    android:id="@+id/btn_login"
+    android:layout_width="-190dp"
+    android:layout_height="43dp"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="676dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:visibility="invisible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.021"
+    app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

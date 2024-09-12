@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.elearningapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ELearningApp">
+        <activity
+            android:name=".user.UserRealDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".PlayCourse"
+            android:exported="true" />
+        <activity
+            android:name=".payment.AddCourse"
+            android:exported="true" />
+        <activity
+            android:name=".PlayVideo"
+            android:exported="true" />
+        <activity
+            android:name=".login.AdminResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".payment.TutorResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".user.UserResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login.AdminDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".payment.TutorDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".user.UserDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".login.AdminRegister"
+            android:exported="true" />
+        <activity
+            android:name=".payment.TutorRegister"
+            android:exported="true" />
+        <activity
+            android:name=".user.UserRegister"
+            android:exported="true" />
+        <activity
+            android:name=".login.AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name=".payment.TutorLogin"
+            android:exported="true" />
+        <activity
+            android:name=".user.UserLogin"
+            android:exported="true" />
+        <activity
+            android:name=".VideoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddVideoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
