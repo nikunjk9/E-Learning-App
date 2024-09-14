@@ -2,8 +2,6 @@
 
 This is an e-learning application. This app enables the creators to upload their content and the users on the app can see their courses. This app shows category-wise content to its users. The users can choose the category and it will show all the courses available.
 
-<br>
-
 ## **Flow of Android E-learning Application**
 
 There is a home screen with 3 buttons. One for the `admin`, one for the `users`, and one for the `tutor`. Clicking on the tutor button will redirect you to its register screen. Enter your details to create a new account or log in to an existing account. It will take you to the Dashboard.
@@ -17,7 +15,6 @@ In the `student module`, users have to log in first with an email id and passwor
 ### 3. Admin Module
 The admin is the manager of the app. After admin logs in the app, the app will show the list of all courses. He has the power to delete the course as well.
 
-<br>
 
 ## Features of Android e-learning app
 1. There are different sections for `users`, `tutors`, and `admin`.
@@ -29,7 +26,6 @@ The admin is the manager of the app. After admin logs in the app, the app will s
 7. After the user clicks on any category, he will be shown all the courses available. He can click on any course and start learning.
 8. Admin has the power to see all the courses and delete any course.
 
-<br>
 
 ## Prerequisites for E-learning Application in Android
 To create the apps, we will need to use android studio. You should have an understanding of how Android works. To complete the project, you must have good knowledge of the following technologies/tools.
