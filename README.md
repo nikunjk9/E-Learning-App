@@ -5,7 +5,7 @@ This is an `e-learning application`. This app enables the creators to upload the
 
 <br>
 
-## 01. Features of Android e-learning app
+## 01. Features of Android e-learning app 
 1. There are different sections for `users`, `tutors`, and `admin`.
 2. Tutors can `sign up` in the app.
 3. Tutors can see the list of all the courses he has uploaded in the app.
