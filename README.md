@@ -5,7 +5,7 @@ This is an `e-learning application`. This app enables the creators to upload the
 
 <br>
 
-## 01. Features of Android e-learning app 
+## 01. Features of Android e-learning app 📑
 1. There are different sections for `users`, `tutors`, and `admin`.
 2. Tutors can `sign up` in the app.
 3. Tutors can see the list of all the courses he has uploaded in the app.
@@ -17,7 +17,7 @@ This is an `e-learning application`. This app enables the creators to upload the
 
 <br>
 
-## 02. Prerequisites for E-learning Application in Android
+## 02. Prerequisites for E-learning Application in Android ⚠️
 To create the apps, we will need to use android studio. You should have an understanding of how Android works. To complete the project, you must have good knowledge of the following technologies/tools.
 
 1. `Java:` Java is used to code the app’s functionality.
